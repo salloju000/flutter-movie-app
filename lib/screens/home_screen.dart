@@ -128,7 +128,6 @@ class _HomeScreenState extends State<HomeScreen> {
                             movie['image'] != null
                                 ? Image.network(
                                     movie['image']['medium'],
-                                    height: 264,
                                     width: double.infinity,
                                     fit: BoxFit.cover,
                                   )
